@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-head {
+
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #166c6c;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.limain{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.delete{
+    padding:3px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover{
+    color: rgb(255, 0, 0);
+}
+.edit{
+    padding:3px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.edit:hover{
+    color: #166c6c;
+}
